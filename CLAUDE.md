@@ -15,9 +15,9 @@
 
 ## 立ち上げ進捗（2026-07-08 開始）
 - [x] 京都版（修正済みコード）から複製・git init・nishinomiya_stations.py・グリッド・AREA_KEYWORDS・ブランド置換
-- [ ] データ収集（clinic_collector.py 実行中/完了確認）
-- [ ] 収集後の監査（7点チェック）→ slug生成 → ジオコーディング → 最寄駅計算
-- [ ] サイト生成（build_clinics → build_features → build_index → build_sitemap）
+- [x] データ収集（完了：603院収集・掲載249院。公的統計270施設→捕捉率92%）
+- [x] 監査→deepdive→slug（衝突0）→座標→最寄駅（全249院）
+- [~] サイト生成：医院ページ・一覧は生成済み。**残：AI分析backfill→特徴ページ再生成→統計実数化**
 - [ ] index.html の統計数字を実数に差し替え（site_config.json の stats と一致させる）
 - [ ] サムネイル画像（ChatGPT無課金ルート）
 - [ ] GitHub Privateリポジトリ・Cloudflare Pages・ドメイン・GA4・Search Console（ユーザー操作）
