@@ -253,7 +253,7 @@
       "院長先生を始め、衛生士さんやスタッフの方も優しく丁寧で言う事のない素晴らしい歯医者さんです",
       "とてもわかりやすく説明してくださいます"
     ],
-    "sources_analyzed": 4,
+    "sources_analyzed": 3,
     "patient_scores": {
       "技術力": 70,
       "説明力": 85,
@@ -289,9 +289,8 @@
       ]
     },
     "equipment_evidence": [
-      "高性能空気清浄機",
-      "加湿器",
-      "デジタルレントゲン"
+      "最新機材への更新が進んでいます。",
+      "院内処方も取り入れています。"
     ],
     "transparency_evidence": [
       "治療方法を丁寧に説明する方針です。"
@@ -355,27 +354,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "focus_treatments": [
-      "一般歯科",
-      "小児歯科",
-      "口腔外科",
-      "矯正歯科",
-      "予防歯科",
-      "インプラント",
-      "ホワイトニング"
-    ],
-    "site_features": [
-      "土曜日も夕方まで受付",
-      "マイナ受付",
-      "感染症予防対策",
-      "予約制",
-      "駐車場"
-    ],
-    "philosophy": "患者様の健康をサポート",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJaa4rldvtAGARQYTqa4Tw3j0": {
     "place_id": "ChIJaa4rldvtAGARQYTqa4Tw3j0",
@@ -631,7 +610,7 @@
       "以前別のクリニックで治療済の歯について、いつまで経ってもどうもしみるような痛みがあり、不安に思いながら診て頂きました",
       "虫歯の治療で現在も通わせて貰っています"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 80,
       "説明力": 85,
@@ -641,8 +620,8 @@
       "痛みへの配慮": 85,
       "待ち時間": 0
     },
-    "doctor_name": "枡元 大毅",
-    "doctor_career": "2011年 朝日大学歯学部 卒業 2012年 大阪歯科大学附属病院 口腔外科 勤務 2013年 大阪市内 医療法人一緑会 勤務 副院長を務める 2017年 神戸市内 医療法人すぎ歯科クリニック 勤務",
+    "doctor_name": "枡元大毅",
+    "doctor_career": "",
     "doctor_evidence": [
       "詳しい治療説明を行っている",
       "痛みに配慮した治療を実施"
@@ -660,9 +639,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "CTセファロレントゲン",
-      "滅菌器",
-      "ルーペ（拡大鏡）"
+      "歯科用CTを完備し正確な診断が可能",
+      "清潔な滅菌管理を行っている"
     ],
     "transparency_evidence": [
       "治療内容をしっかり説明する方針。"
@@ -725,33 +703,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "qualifications": [
-      "日本小児歯科学会 会員",
-      "日本臨床歯周病学会 会員",
-      "日本ヘルスケア 歯科学会 会員",
-      "ケアクラブ 所属",
-      "KーWave所属"
-    ],
-    "focus_treatments": [
-      "一般歯科",
-      "小児・マタニティ歯科",
-      "口腔外科",
-      "矯正歯科",
-      "インプラント",
-      "入れ歯",
-      "セラミック",
-      "ホワイトニング"
-    ],
-    "site_features": [
-      "キッズスペース",
-      "バリアフリー",
-      "駐車場"
-    ],
-    "philosophy": "全ては患者様の笑顔のために",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJZcOw8t7tAGARBYe-cBtpbkE": {
     "place_id": "ChIJZcOw8t7tAGARBYe-cBtpbkE",
@@ -792,7 +744,7 @@
       "生まれ故郷にとんぼ返りしてはや一年",
       "なんか賛否両論みたいな、先生によって違うのかな？"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 60,
       "説明力": 50,
@@ -881,10 +833,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJsdI933XuAGARlE9sqvOIcXc": {
     "place_id": "ChIJsdI933XuAGARlE9sqvOIcXc",
@@ -1045,7 +994,7 @@
       "親知らずの診察～抜歯までの治療が早く、その他の治療も親切丁寧な対応で助かりました",
       "開院後夫婦でお世話になっています"
     ],
-    "sources_analyzed": 4,
+    "sources_analyzed": 3,
     "patient_scores": {
       "技術力": 80,
       "説明力": 90,
@@ -1055,8 +1004,8 @@
       "痛みへの配慮": 80,
       "待ち時間": 70
     },
-    "doctor_name": "定兼 啓倫",
-    "doctor_career": "両親ともに歯科医師。歯周病を専門とする医療機関で勤務。",
+    "doctor_name": "定兼啓倫",
+    "doctor_career": "神戸大学医学部附属病院での研修医経験あり。",
     "doctor_evidence": [
       "患者への丁寧な説明を重視している。",
       "様々な研修を通じて技術を向上させている。"
@@ -1083,8 +1032,8 @@
       ]
     },
     "equipment_evidence": [
-      "歯科用CT",
-      "口腔内スキャナー"
+      "最新設備を整えている医院である。",
+      "医科との連携を重視した診療を行っている。"
     ],
     "transparency_evidence": [
       "治療の選択肢や進め方を患者にしっかり説明している。"
@@ -1149,25 +1098,7 @@
     "q_in_osaka": false,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": true,
-    "qualifications": [
-      "日本臨床歯周病学会",
-      "日本歯周病学会"
-    ],
-    "focus_treatments": [
-      "一般歯科",
-      "小児歯科",
-      "矯正歯科",
-      "口腔外科",
-      "インプラント治療"
-    ],
-    "site_features": [
-      "キッズスペース"
-    ],
-    "philosophy": "患者さんと二人三脚で歩む歯科医療",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": true
   },
   "ChIJc8xUL7jyAGARUvQ6Sz3stCA": {
     "place_id": "ChIJc8xUL7jyAGARUvQ6Sz3stCA",
@@ -1305,7 +1236,7 @@
       "歯を抜くのがとても怖かったですが、先生とスタッフの方がとても親切で安心できました",
       "3ヶ月に1回定期検診していただいてます"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 85,
       "説明力": 90,
@@ -1315,8 +1246,8 @@
       "痛みへの配慮": 95,
       "待ち時間": 70
     },
-    "doctor_name": "辻 博之",
-    "doctor_career": "平成10年 松本歯科大学 卒業、平成10年 歯科医師免許 取得、平成11年 大阪歯科大学 臨床研修 修了、平成16年 デンタルクリニックツジ 開業",
+    "doctor_name": "辻博之",
+    "doctor_career": "",
     "doctor_evidence": [
       "丁寧な説明で安心感を提供",
       "技術を活かした治療を実施"
@@ -1334,7 +1265,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "マイクロスコープ"
+      "最新の技術と設備に基づく治療",
+      "清潔感のある環境を提供"
     ],
     "transparency_evidence": [
       "患者に対して丁寧に説明している"
@@ -1396,29 +1328,7 @@
     "q_in_osaka": false,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": true,
-    "qualifications": [
-      "咬合療法研究会",
-      "口腔インプラント研究会",
-      "インプラント学会",
-      "二垂会",
-      "ケアクラブ"
-    ],
-    "focus_treatments": [
-      "インプラント",
-      "虫歯・歯周病",
-      "定期健診",
-      "ホワイトニング",
-      "義歯（入れ歯）",
-      "矯正"
-    ],
-    "site_features": [
-      "駐車場"
-    ],
-    "philosophy": "安心・安全な歯科治療",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": true
   },
   "ChIJBatoCjXzAGARlJWSzfOeiLM": {
     "place_id": "ChIJBatoCjXzAGARlJWSzfOeiLM",
@@ -1458,7 +1368,7 @@
     "phrases": [
       "松尾院長はとても勉強熱心で誠実なお人柄の先生です"
     ],
-    "sources_analyzed": 4,
+    "sources_analyzed": 3,
     "patient_scores": {
       "技術力": 80,
       "説明力": 75,
@@ -1469,7 +1379,7 @@
       "待ち時間": 70
     },
     "doctor_name": "松尾 顕",
-    "doctor_career": "芦屋市出身 徳島大学歯学部卒業 大阪大学歯学部付属病院 口腔治療・歯周科 研修医 大阪大学歯学部付属病院 口腔治療・歯周科 研究生 兵庫県内の歯科医院にて勤務 まつお歯科開院",
+    "doctor_career": "大学病院で歯周病・根管治療に従事",
     "doctor_evidence": [
       "誠実な医療を提供することを強調しています。",
       "大学病院での経験が豊富です。"
@@ -1494,9 +1404,8 @@
       ]
     },
     "equipment_evidence": [
-      "マイクロスコープ",
-      "CT",
-      "口腔内スキャナー"
+      "最新の設備が整ったクリニックです。",
+      "清潔で快適な環境が提供されています。"
     ],
     "transparency_evidence": [
       "公式サイトに医院の理念や治療方針が明記されています。"
@@ -1561,29 +1470,7 @@
     "q_in_osaka": false,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": true,
-    "qualifications": [
-      "日本歯周病学会 認定医",
-      "日本歯科保存学会 認定医",
-      "日本顕微鏡歯科学会 所属"
-    ],
-    "focus_treatments": [
-      "歯周病治療",
-      "インプラント",
-      "精密根管治療",
-      "セラミック治療",
-      "審美歯科",
-      "矯正歯科"
-    ],
-    "site_features": [
-      "駐車場",
-      "完全個室",
-      "半個室"
-    ],
-    "philosophy": "治すだけでなく、未来まで守る。",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": true
   },
   "ChIJPx5gDX_zAGARYao_EwWRBqk": {
     "place_id": "ChIJPx5gDX_zAGARYao_EwWRBqk",
@@ -1627,7 +1514,7 @@
       "西宮浜に引っ越ししてきてからずっとお世話になっています",
       "丁寧に説明してくださる、信頼しておまかせできる先生です"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 70,
       "説明力": 80,
@@ -1638,7 +1525,7 @@
       "待ち時間": 50
     },
     "doctor_name": "小田 洋司",
-    "doctor_career": "1999年 大阪歯科大学卒業、2003年 兵庫県西宮市 おだ歯科医院 開院",
+    "doctor_career": "1999年 大阪歯科大学卒業",
     "doctor_evidence": [
       "丁寧な説明が患者から評価されています。",
       "包括的治療の方針を掲げています。"
@@ -1656,7 +1543,7 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "セレック"
+      "セレック治療の導入があります。"
     ],
     "transparency_evidence": [
       "治療の流れについて説明が明確です。"
@@ -1719,33 +1606,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "qualifications": [
-      "2008年 CDTC BasicCourse 修了",
-      "2009年 BSC BasicCourse 修了",
-      "2010年 BSC GussinoCourse PhilosophyCourse 修了",
-      "2012年 UCLA CE JapanPlogram 修了",
-      "2012年 USC CE JapanPlogram 修了",
-      "2014年 NYU CE JapanPlogram 修了",
-      "2015年 ICOI FELLOW（国際口腔インプラント学会）認定医 取得",
-      "日本歯周病学会",
-      "ICOI（国際口腔インプラント学会）",
-      "ISCD（International Society Of Computerized Dentistry）",
-      "社）日本臨床歯科CADCAM学会",
-      "JAID",
-      "CDTC（臨床歯学研修所）",
-      "BSC（矯正歯科研究会）",
-      "ADA（明石歯科臨床研究会）",
-      "神戸矯正研究会"
-    ],
-    "focus_treatments": [
-      "包括的歯科治療",
-      "予防"
-    ],
-    "philosophy": "予防と主体とした包括的歯科治療",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJx8TgiILyAGARDF_8iWgNrb4": {
     "place_id": "ChIJx8TgiILyAGARDF_8iWgNrb4",
@@ -1777,7 +1638,7 @@
     "phrases": [
       "きめの細かい治療、アドバイス、ほんとうにありがたいです"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 85,
       "説明力": 80,
@@ -1871,17 +1732,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "site_features": [
-      "提携駐車場（10台）",
-      "バリアフリー",
-      "予約優先制",
-      "車いす受診可",
-      "訪問診療の可否可"
-    ],
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJD_GUUuztAGARh36r8yY_nSQ": {
     "place_id": "ChIJD_GUUuztAGARh36r8yY_nSQ",
@@ -1917,7 +1768,7 @@
       "初めて行った印象は親切な医師だなぁっと好印象でしたが、回を重ねるにつれ乱暴で威圧的な口調(気分屋さん)をされ驚きと恐怖心が募る一方だった",
       "子供の時からお世話になっています"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 75,
       "説明力": 70,
@@ -1927,8 +1778,8 @@
       "痛みへの配慮": 75,
       "待ち時間": 65
     },
-    "doctor_name": "大谷 裕亮",
-    "doctor_career": "甲子園で生まれ育ち、父の代よりこの地で50年以上。歯周病専門医の認定資格を取得。",
+    "doctor_name": "大谷裕亮",
+    "doctor_career": "歯周病専門医の認定資格を持つ。",
     "doctor_evidence": [
       "歯周病治療の第一人者の元で学んだ。",
       "地域に密着した50年以上の歴史。"
@@ -2018,21 +1869,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "qualifications": [
-      "歯周病専門医",
-      "日本歯周病学会会員"
-    ],
-    "focus_treatments": [
-      "歯周病治療"
-    ],
-    "site_features": [
-      "バリアフリーの院内"
-    ],
-    "philosophy": "治療は丁寧にかつ最小限にとどめること",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJc0X3aIvtAGAR8wAzsvc3-lU": {
     "place_id": "ChIJc0X3aIvtAGAR8wAzsvc3-lU",
@@ -2170,7 +2007,7 @@
       "前に通っていた歯医者さんにこのまま通うか迷っていたところ、信頼できる友人に教えてもらいこちらの歯医者さんを選びました",
       "自費診療についてメリット・デメリットを分かりやすく説明していただき、不安を解消した上で治療を選ぶことができました"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 85,
       "説明力": 90,
@@ -2180,8 +2017,8 @@
       "痛みへの配慮": 85,
       "待ち時間": 70
     },
-    "doctor_name": "相原 一慶",
-    "doctor_career": "1994年3月 大阪大学歯学部卒業、1994年4月 大阪市北区の歯科医院に勤務、1996年2月 相原歯科医院勤務、2004年1月 相原歯科医院院長就任、2016年4月 医療法人社団相原歯科医院理事長就任",
+    "doctor_name": "相原",
+    "doctor_career": "45年以上の歯科医療経験",
     "doctor_evidence": [
       "信頼できる医師として評判",
       "専門性を持つ技術者が在籍"
@@ -2206,14 +2043,8 @@
       ]
     },
     "equipment_evidence": [
-      "ミーレ医療用自動洗浄機",
-      "ドイツシロナ社製デンタルチェアー",
-      "CTレントゲン撮影機",
-      "PSPIX",
-      "DACプロフェッショナル",
-      "DACユニバーサル",
-      "TRIOS 5",
-      "マイクロスコープEXTARO 300"
+      "最新技術に基づいた診療",
+      "セラミックやインプラント治療に対応"
     ],
     "transparency_evidence": [
       "自費診療内容の説明が明瞭"
@@ -2275,32 +2106,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "qualifications": [
-      "日本補綴歯科学会認定 補綴歯科専門医",
-      "日本歯科審美学会認定 審美歯科認定医",
-      "ITI（世界インプラント学連盟）日本支部公認 インプラントスペシャリスト",
-      "日本口腔インプラント学会 ケースプレゼンテーション試験合格",
-      "大阪大学歯学部 研修登録医",
-      "スイス・ベルン大学 インプラント・歯周病研修 修了"
-    ],
-    "focus_treatments": [
-      "歯周病治療",
-      "虫歯治療",
-      "インプラント",
-      "審美治療",
-      "セラミック",
-      "ホワイトニング",
-      "予防歯科"
-    ],
-    "site_features": [
-      "駐車場",
-      "女性歯科医師"
-    ],
-    "philosophy": "地域に根ざし、患者様お一人おひとりに寄り添う",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJA8EYIwDtAGAR8vltSae8g7c": {
     "place_id": "ChIJA8EYIwDtAGAR8vltSae8g7c",
@@ -2343,7 +2149,7 @@
       "施設は清潔でとても心地いいです",
       "2歳の子連れで親子ともに診てもらいました！子供にも私にも丁寧な対応してくださり、説明もすごくわかりやすかったです！"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 70,
       "説明力": 80,
@@ -2353,8 +2159,8 @@
       "痛みへの配慮": 0,
       "待ち時間": 0
     },
-    "doctor_name": "福田俊介",
-    "doctor_career": "2012年 大阪歯科大学卒業 2012年 大阪歯科大学附属病院有歯補綴咬合治療科 入局・歯科山崎(東大阪市) 入職 2019年 ファミリエ歯科クリニック(堺市) 分院長就任 2025年 鳴尾ふくだ歯科・小児歯科 開院",
+    "doctor_name": "福田 俊介",
+    "doctor_career": "2012年 大阪歯科大学卒業",
     "doctor_evidence": [
       "地域貢献を目指す開業医",
       "小児歯科と予防歯科に力を入れている"
@@ -2371,10 +2177,7 @@
       "parts": [],
       "techniques": []
     },
-    "equipment_evidence": [
-      "CT",
-      "口腔内スキャナー"
-    ],
+    "equipment_evidence": [],
     "transparency_evidence": [
       "保険診療は現金のみとの情報あり"
     ],
@@ -2432,25 +2235,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "qualifications": [
-      "日本補綴歯科学会",
-      "日本外傷歯学会",
-      "認定医"
-    ],
-    "focus_treatments": [
-      "予防歯科",
-      "訪問診療"
-    ],
-    "site_features": [
-      "キッズスペース",
-      "バリアフリー",
-      "個室"
-    ],
-    "philosophy": "心身の健康はお口の健康から",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJI3aR7ubtAGARFX_Xk7h4xxY": {
     "place_id": "ChIJI3aR7ubtAGARFX_Xk7h4xxY",
@@ -2494,7 +2279,7 @@
       "私的には、これまでで、最高の歯医者さんです",
       "ここで審美を求めてはいけない"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 30,
       "説明力": 70,
@@ -2505,7 +2290,7 @@
       "待ち時間": 50
     },
     "doctor_name": "長野 和幸",
-    "doctor_career": "1956年生まれ 同志社大学工学部 卒業 朝日大学歯学部 卒業後、大阪警察病院にて歯科口腔外科を研鑽 1991年 長野歯科医院 開院",
+    "doctor_career": "不明",
     "doctor_evidence": [
       "患者の急患対応を行った実績があります。",
       "治療の説明に満足した患者が多いです。"
@@ -2523,7 +2308,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "CEREC"
+      "感染対策に関する記載があり、清潔感は評価されています。",
+      "最新設備について触れられている情報なし。"
     ],
     "transparency_evidence": [
       "公式サイトに最新情報が掲載されている。"
@@ -2584,20 +2370,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "qualifications": [
-      "日本口腔外科学会",
-      "日本全身咬合学会",
-      "UCLAインプラントアソシエーションジャパン",
-      "日本歯科骨粗鬆症研究会 理事"
-    ],
-    "focus_treatments": [
-      "口腔内全体の治療"
-    ],
-    "philosophy": "いつも確かな診断を",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJ5XKNjMXtAGARvvQvs9yie-w": {
     "place_id": "ChIJ5XKNjMXtAGARvvQvs9yie-w",
@@ -2640,7 +2413,7 @@
       "受付の方も先生も衛生士さんもとても丁寧な対応をしていただいています",
       "院長もスタッフの皆さんも丁寧にお話ししてくださったので、不安もなく診療することができました"
     ],
-    "sources_analyzed": 2,
+    "sources_analyzed": 1,
     "patient_scores": {
       "技術力": 80,
       "説明力": 85,
@@ -2651,7 +2424,7 @@
       "待ち時間": 70
     },
     "doctor_name": "不明",
-    "doctor_career": "2000年3月 六甲高等学校 卒業 2006年3月 大阪大学 歯学部 卒業 2006年4月 大阪大学 歯学部 口腔治療学教室 入局 2009年4月 大阪府内の歯科医院 勤務 2012年4月 医療法人社団井上歯科 勤務 2017年4月 医療法人社団井上歯科 副院長 2022年1月 医療法人社団井上歯科 院長 2026年3月 甲子園やまぐち歯科・矯正歯科 開院",
+    "doctor_career": "20年の勤務医経験",
     "doctor_evidence": [
       "幅広い年代の診療経験があります。",
       "丁寧に説明し、安心感を提供。"
@@ -2669,10 +2442,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "歯科用CT",
-      "マイクロスコープ",
-      "高圧蒸気滅菌器",
-      "口腔外バキューム"
+      "最新の機器を用いた治療が特徴です。",
+      "快適な治療環境を整えています。"
     ],
     "transparency_evidence": [
       "わかりやすい説明を心がけています。"
@@ -2737,31 +2508,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "qualifications": [
-      "日本歯周病学会 認定医",
-      "日本口腔インプラント学会 （専修医申請中）",
-      "大阪口腔インプラント研究会",
-      "インビザラインドクター",
-      "Club GP"
-    ],
-    "focus_treatments": [
-      "虫歯治療",
-      "歯周病治療",
-      "予防歯科",
-      "小児歯科",
-      "矯正歯科",
-      "インプラント治療"
-    ],
-    "site_features": [
-      "キッズスペース",
-      "バリアフリー",
-      "駐車場"
-    ],
-    "philosophy": "わかりやすい説明と誠実な診療を心がけ",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJZ1mjA-XtAGARdngjBSb-E90": {
     "place_id": "ChIJZ1mjA-XtAGARdngjBSb-E90",
@@ -2802,7 +2549,7 @@
       "直ぐに歯を抜きましょうといいます",
       "優しく、上手なところです"
     ],
-    "sources_analyzed": 2,
+    "sources_analyzed": 1,
     "patient_scores": {
       "技術力": 70,
       "説明力": 50,
@@ -2812,7 +2559,7 @@
       "痛みへの配慮": 0,
       "待ち時間": 0
     },
-    "doctor_name": "親里 嘉貴 親里 嘉之",
+    "doctor_name": "親里 嘉貴",
     "doctor_career": "",
     "doctor_evidence": [
       "患者からの信頼が高い",
@@ -2888,13 +2635,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "site_features": [
-      "駐車場"
-    ],
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJMwbq2ebtAGARX0x2JrFDfkQ": {
     "place_id": "ChIJMwbq2ebtAGARX0x2JrFDfkQ",
@@ -2924,7 +2665,7 @@
     ],
     "reputation_summary": "高齢者から子供まで幅広く対応し、安心して通える歯科医院です。",
     "phrases": [],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 70,
       "説明力": 75,
@@ -3015,19 +2756,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "focus_treatments": [
-      "一般歯科",
-      "小児歯科",
-      "訪問診療"
-    ],
-    "site_features": [
-      "感染対策"
-    ],
-    "philosophy": "ひとりひとりの悩みや希望に寄り添う",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJUeoKPN7tAGAR22WMrQtzw7w": {
     "place_id": "ChIJUeoKPN7tAGAR22WMrQtzw7w",
@@ -3071,7 +2800,7 @@
       "みなみ歯科さんには、長年検診等でお世話になっています",
       "毎月お世話になっております"
     ],
-    "sources_analyzed": 4,
+    "sources_analyzed": 3,
     "patient_scores": {
       "技術力": 85,
       "説明力": 90,
@@ -3100,7 +2829,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "滅菌システム"
+      "滅菌システム完備で安心",
+      "最新の設備が整っている"
     ],
     "transparency_evidence": [
       "治療内容を丁寧に説明"
@@ -3163,19 +2893,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "focus_treatments": [
-      "訪問歯科診療"
-    ],
-    "site_features": [
-      "完全予約制",
-      "無料駐車場70台完備",
-      "院内感染対策"
-    ],
-    "philosophy": "丁寧な治療を心掛けています",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJP5yKI-DtAGARtDK7VYA8zc8": {
     "place_id": "ChIJP5yKI-DtAGARtDK7VYA8zc8",
@@ -3420,7 +3138,7 @@
       "優しく、患者本位の治療をして下さいます",
       "受付と歯科衛生士？の2名の女性スタッフが客の悪口を聞こえるように言ってくる"
     ],
-    "sources_analyzed": 2,
+    "sources_analyzed": 1,
     "patient_scores": {
       "技術力": 70,
       "説明力": 80,
@@ -3431,7 +3149,7 @@
       "待ち時間": 70
     },
     "doctor_name": "吉田 篤",
-    "doctor_career": "六甲学院中学・高校卒業、大阪歯科大学卒業、歯科医師国家試験合格、歯科医師免許取得、大阪歯科大学大学院博士課程修了、歯学博士、吉田歯科医院開業",
+    "doctor_career": "歯科治療に携わって30年の経験豊富な院長",
     "doctor_evidence": [
       "地域密着で29年の診療歴",
       "経験豊富な院長が担当"
@@ -3449,7 +3167,8 @@
       "techniques": []
     },
     "equipment_evidence": [
-      "口腔外バキューム"
+      "院内感染対策を徹底",
+      "衛生管理に力を入れている"
     ],
     "transparency_evidence": [
       "患者の気持ちに寄り添った治療を提供"
@@ -3511,36 +3230,7 @@
     "q_in_osaka": true,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": false,
-    "qualifications": [
-      "歯科医師",
-      "歯学博士",
-      "日本顎咬合学会認定医",
-      "日本口腔診断学会認定医",
-      "公益社団法人日本口腔インプラント学会",
-      "特定非営利活動法人日本顎咬合学会",
-      "一般社団法人日本口腔診断学会",
-      "歯科医師会",
-      "公益社団法人日本歯科医師会",
-      "一般社団法人兵庫県歯科医師会",
-      "一般社団法人西宮市歯科医師会",
-      "公益社団法人日本青年会議所OB",
-      "一般社団法人大阪青年会議所OB"
-    ],
-    "focus_treatments": [
-      "むし歯の治療",
-      "歯周病の治療",
-      "入れ歯の治療",
-      "予防歯科・定期検診",
-      "審美歯科"
-    ],
-    "site_features": [
-      "感染対策"
-    ],
-    "philosophy": "患者様お一人おひとりのご希望を大切に",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": false
   },
   "ChIJSy2YfeTtAGAR2Md8hG8AxRI": {
     "place_id": "ChIJSy2YfeTtAGAR2Md8hG8AxRI",
@@ -3824,7 +3514,7 @@
       "髪質を考えてセットしやすい髪型にしてもらいました！とても落ち着く美容室です",
       "とても丁寧に対応いただきました"
     ],
-    "sources_analyzed": 2,
+    "sources_analyzed": 1,
     "patient_scores": {
       "技術力": 60,
       "説明力": 70,
@@ -3834,8 +3524,8 @@
       "痛みへの配慮": 0,
       "待ち時間": 0
     },
-    "doctor_name": "吉田 一成",
-    "doctor_career": "1989年 日本高等美容専門学校卒（明記のみ・80字以内）",
+    "doctor_name": "",
+    "doctor_career": "",
     "doctor_evidence": [],
     "doctor_stars": {
       "専門性": 0,
@@ -3905,15 +3595,7 @@
     "q_in_osaka": false,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": true,
-    "site_features": [
-      "完全予約制",
-      "プライベートサロン"
-    ],
-    "philosophy": "お客様お一人お一人に寄り添うサロンを作りたくて",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": true
   },
   "ChIJ2wnLqG3uAGAR-6kqpPFJHBw": {
     "place_id": "ChIJ2wnLqG3uAGAR-6kqpPFJHBw",
@@ -4329,7 +4011,7 @@
       "4年ぶりに伺いました",
       "星1もつけたくないです"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 70,
       "説明力": 60,
@@ -4340,7 +4022,7 @@
       "待ち時間": 50
     },
     "doctor_name": "宇垣 吉秀",
-    "doctor_career": "2007年3月 大阪歯科大学卒業。10年以上口腔外科に勤務。",
+    "doctor_career": "大阪歯科大学卒、口腔外科で10年以上勤務。",
     "doctor_evidence": [
       "多くの患者の診療経験があります。",
       "不安を抱える患者に配慮した説明を重視。"
@@ -4365,9 +4047,8 @@
       ]
     },
     "equipment_evidence": [
-      "マイクロスコープ",
-      "滅菌器",
-      "歯科用CT"
+      "院内での手術環境が整っています。",
+      "最新の治療機器を導入しています。"
     ],
     "transparency_evidence": [
       "患者への説明を重視していると記載があります。"
@@ -4429,35 +4110,7 @@
     "q_in_osaka": false,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": true,
-    "qualifications": [
-      "歯科医師免許",
-      "博士（歯学）",
-      "口腔外科認定医",
-      "歯科医師臨床研修指導医",
-      "日本口腔外科学会",
-      "日本口腔インプラント学会"
-    ],
-    "focus_treatments": [
-      "むし歯治療",
-      "歯周病治療",
-      "入れ歯（義歯）",
-      "小児歯科",
-      "歯科口腔外科",
-      "インプラント",
-      "予防・クリーニング",
-      "セラミック治療",
-      "ホワイトニング",
-      "矯正歯科",
-      "マウスピース製作"
-    ],
-    "site_features": [
-      "キッズスペース"
-    ],
-    "philosophy": "患者さんとの信頼関係を大切に",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": true
   },
   "ChIJKQa5tS-NAGARBVNRyesEetA": {
     "place_id": "ChIJKQa5tS-NAGARBVNRyesEetA",
@@ -4500,7 +4153,7 @@
       "飛び込みで虫歯の治療をしていただきました！",
       "比較的治療が早い、かつ治療費は抑え目…まあ、治療でゎなく掃除で引っ張られて延々通ってますがw"
     ],
-    "sources_analyzed": 3,
+    "sources_analyzed": 2,
     "patient_scores": {
       "技術力": 80,
       "説明力": 80,
@@ -4593,14 +4246,7 @@
     "q_in_osaka": false,
     "q_is_salon": false,
     "q_is_dup": false,
-    "q_excluded": true,
-    "site_features": [
-      "駐車場"
-    ],
-    "philosophy": "患者様の口腔環境を把握し、じっくりとお話を伺い、治療を行う",
-    "deep_source": "official_site",
-    "deep_fetched": true,
-    "deep_status": "ok"
+    "q_excluded": true
   },
   "ChIJjyX1EXCNAGARQmxz29AUCa8": {
     "place_id": "ChIJjyX1EXCNAGARQmxz29AUCa8",
