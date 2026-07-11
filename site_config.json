@@ -9,9 +9,9 @@
   "industry": "歯科",
   "contact_email": "komurasaki.kobe@gmail.com",
   "stats": {
-    "clinics_analyzed": 603,
-    "reviews_parsed": 18673,
-    "sites_crawled": 413,
+    "clinics_analyzed": 249,
+    "reviews_parsed": 9542,
+    "sites_crawled": 166,
     "clinics_published": 249,
     "reviews_published": 9542,
     "ai_analyzed": 204
