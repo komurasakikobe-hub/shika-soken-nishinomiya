@@ -6,6 +6,7 @@
   "site_name": "西宮歯科総研",
   "site_name_en": "NISHINOMIYA DENTAL RESEARCH",
   "domain": "nishinomiya.shikasoken.com",
+  "stations_module": "nishinomiya_stations",
   "_domain_note": "仮ドメイン。公開前にユーザーが決定する",
   "industry": "歯科",
   "contact_email": "komurasaki.kobe@gmail.com",
