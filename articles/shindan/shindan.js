@@ -12,40 +12,36 @@ const odrTrack = (name, params) => {
   if (typeof window.odrTrack === "function") window.odrTrack(name, params);
 };
 
-// ── エリア定義（西宮市の駅エリア12件・最寄駅名で一致） ──────
+// ── エリア定義（西宮市全域。旧ウィザードのAREA_KEYWORDSを再利用） ──────
 const AREA_KEYWORDS = {
-  "甲子園エリア": ["甲子園"],
-  "西宮北口エリア": ["西宮北口"],
-  "甲子園口エリア": ["甲子園口"],
-  "西宮エリア": ["西宮"],
-  "さくら夙川エリア": ["さくら夙川"],
-  "苦楽園口エリア": ["苦楽園口"],
-  "夙川エリア": ["夙川"],
-  "門戸厄神エリア": ["門戸厄神"],
-  "甲東園エリア": ["甲東園"],
-  "香櫨園エリア": ["香櫨園"],
-  "鳴尾エリア": ["鳴尾・武庫川女子大前"],
-  "今津エリア": ["今津"],
+  "北区（梅田・西宮駅）":       ["西宮市北区", "北区", "梅田"],
+  "中央区（心斎橋・難波）":     ["西宮市中央区", "中央区", "心斎橋", "難波"],
+  "西区（本町・阿波座）":       ["西宮市西区", "西区", "本町", "阿波座"],
+  "福島区（福島・野田）":       ["西宮市福島区", "福島区", "福島", "野田"],
+  "天王寺区（天王寺・上本町）": ["西宮市天王寺区", "天王寺区", "天王寺", "上本町"],
+  "阿倍野区（阿倍野橋・昭和町）": ["西宮市阿倍野区", "阿倍野区", "阿倍野", "昭和町"],
+  "浪速区（なんば・新今宮）":   ["西宮市浪速区", "浪速区", "なんば", "新今宮"],
+  "淀川区（新西宮・十三）":     ["西宮市淀川区", "淀川区", "新西宮", "十三"],
+  "東淀川区（東淀川・上新庄）": ["西宮市東淀川区", "東淀川区", "東淀川", "上新庄"],
+  "都島区（京橋・桜ノ宮）":     ["西宮市都島区", "都島区", "京橋", "桜ノ宮"],
+  "此花区（桜島・西九条）":     ["西宮市此花区", "此花区", "桜島", "西九条"],
+  "港区（弁天町・朝潮橋）":     ["西宮市港区", "港区", "弁天町", "朝潮橋"],
+  "大正区（大正・鶴町）":       ["西宮市大正区", "大正区", "大正", "鶴町"],
+  "西淀川区（姫島・出来島）":   ["西宮市西淀川区", "西淀川区", "姫島", "出来島"],
+  "東成区（今里・玉造）":       ["西宮市東成区", "東成区", "今里", "玉造"],
+  "生野区（鶴橋・桃谷）":       ["西宮市生野区", "生野区", "鶴橋", "桃谷"],
+  "旭区（千林・関目）":         ["西宮市旭区", "旭区", "千林", "関目"],
+  "城東区（蒲生・野江）":       ["西宮市城東区", "城東区", "蒲生", "野江"],
+  "鶴見区（横堤・放出）":       ["西宮市鶴見区", "鶴見区", "横堤", "放出"],
+  "住之江区（住之江・南港）":   ["西宮市住之江区", "住之江区", "住之江", "南港"],
+  "住吉区（我孫子・長居）":     ["西宮市住吉区", "住吉区", "我孫子", "長居"],
+  "東住吉区（田辺・針中野）":   ["西宮市東住吉区", "東住吉区", "田辺", "針中野"],
+  "平野区（平野・喜連瓜破）":   ["西宮市平野区", "平野区", "平野", "喜連瓜破"],
+  "西成区（天下茶屋・花園町）": ["西宮市西成区", "西成区", "天下茶屋", "花園町"],
 };
 const WARD_LIST = [{ key: "all", label: "西宮市全体" }].concat(
   Object.keys(AREA_KEYWORDS).map(k => ({ key: k, label: k.replace(/（.*）/, "") }))
 );
-
-// ── エリア一致判定（住所＋最寄駅名。単一市は最寄駅名の完全一致で判定） ──────
-const AREA_MATCH_BY_STATION = true;
-function matchesArea(clinic, kws) {
-  if (!kws) return false;
-  const stn = (clinic.nearest_station && clinic.nearest_station.name) || "";
-  if (AREA_MATCH_BY_STATION) return kws.some(kw => stn === kw);
-  const addr = clinic.address || "";
-  return kws.some(kw => addr.includes(kw) || (stn && stn === kw));
-}
-function regionLabelOf(clinic) {
-  for (const key in AREA_KEYWORDS) {
-    if (matchesArea(clinic, AREA_KEYWORDS[key])) return key.replace(/（.*）/, "");
-  }
-  return "";
-}
 
 // ── 悩み・治療 ─────────────────────────────────────────────
 const TREATMENT_MAP = {
@@ -226,7 +222,8 @@ function isWardMatch(clinic, wardKey) {
   if (!wardKey || wardKey === "all") return true;
   const kws = AREA_KEYWORDS[wardKey];
   if (!kws) return true;
-  return matchesArea(clinic, kws);
+  const addr = clinic.address || "";
+  return kws.some(kw => addr.includes(kw));
 }
 
 // ── フィルタ適用後のプールを取得（地域・治療は絞り込み、
@@ -671,8 +668,9 @@ function computeWardRanks() {
   wardRankMap = new Map();
   const groups = new Map();
   allClinics.forEach(c => {
-    const w = regionLabelOf(c);
-    if (!w) return;
+    const m = (c.address || "").match(/西宮市([一-龥]+区)/);
+    if (!m) return;
+    const w = m[1];
     if (!groups.has(w)) groups.set(w, []);
     groups.get(w).push({ pid: c.place_id || "", score: calcRankScore(c).score });
   });
@@ -687,7 +685,8 @@ const PRIZE = { 1: ["金賞", "GOLD"], 2: ["銀賞", "SILVER"], 3: ["銅賞", "B
 
 function cardHTML(clinic, rank, matched) {
   const addr = clinic.address || "";
-  const ward = regionLabelOf(clinic);
+  const wardMatch = addr.match(/西宮市([一-龥]+区)/);
+  const ward = wardMatch ? wardMatch[1] : "";
   const stationText = formatStationText(clinic.nearest_station, clinic);
   const info = infoLevel(clinic);
   const rating = clinic.rating ? clinic.rating.toFixed(1) : "—";
